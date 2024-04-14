@@ -7,4 +7,4 @@ jobs:
       - name: print hi
         run: echo "hi there!"
       - name: print bye
-        run: echo"bye"
+        run: echo "bye"
