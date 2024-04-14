@@ -1,0 +1,10 @@
+on: workflow_dispatch
+name: second workflow
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: multi-line-commands
+        run: |
+          echo "first line"
+          echo "second line"
